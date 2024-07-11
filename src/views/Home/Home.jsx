@@ -3,6 +3,8 @@ import "./Home.css"
 import ShoesCard from '../../components/ShoesCard/ShoesCard'
 import axios from 'axios'
 import toast, { Toaster } from 'react-hot-toast'
+import { Link } from 'react-router-dom'
+import AddShoesPage from '../AddShoesPage/AddShoesPage'
 
 
 function Home() {
@@ -67,6 +69,9 @@ function Home() {
             })
           }
         </div>
+
+        <Link to="/add">
+        <img className='add-img' src="https://cdn-icons-png.flaticon.com/128/8191/8191584.png" alt="add-img" /></Link>
 
       </div>
       <Toaster/>
