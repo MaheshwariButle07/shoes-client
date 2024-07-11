@@ -5,14 +5,14 @@
     box-shadow: 3px 3px 10px gray;
    background-color: #529fe2;
     width: 400px;
-    padding: 70px 20px;
+    padding: 30px 20px;
     margin: 10px auto;
 }
 
 .input-brand{
-    margin: 10px;
+    margin: 15px;
     padding: 5px 10px;
-    font-size: 18px;
+    font-size: 20px;
     border: none;
     box-shadow: 3px 3px 5px black;
 }
@@ -25,6 +25,15 @@
     color: white;
     font-size: 15px;
 }
+
+.home-img{
+    position: fixed;
+    right: 10px;
+    bottom: 20px;
+    height: 80px;
+}
+
+
 
 @media screen and (max-width:1000px) {
     .input-container{
@@ -40,5 +49,9 @@
         font-size: 50px;
         padding: 10px 80px;
         margin-top: 80px ;
+    }
+
+    .home-img{
+        height: 120px;
     }
 }

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./AddShoesPage.css";
 import axios from "axios";
 import toast, { Toaster } from "react-hot-toast";
+import { Link } from "react-router-dom";
 
 function AddShoesPage() {
   const [brand, setBrand] = useState("");
@@ -107,6 +108,10 @@ function AddShoesPage() {
         <button className="add-btn" onClick={addShoes} type="button">ADD</button>
       </form>
       <Toaster/>
+
+      <Link to="/">
+      <img className="home-img" src="https://cdn-icons-png.flaticon.com/128/9385/9385212.png" alt="home-img" />
+      </Link>
     </div>
   );
 }
