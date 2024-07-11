@@ -9,6 +9,7 @@
     margin: 20px;
 }
 
+
 .shoes-img{
     width: 90%;
     
@@ -36,4 +37,10 @@
 .color{
     margin: 0;
     padding: 10px 10px;
+}
+
+@media screen and (min-width: 600px) {
+    .shoes-container{
+        width:90%;
+    }
 }
