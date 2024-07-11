@@ -74,7 +74,7 @@ function AddShoesPage() {
 
         <input
           type="text"
-          placeholder="Add Brand Here"
+          placeholder="Add Image Here"
           value={image}
           onChange={(e)=>setImage(e.target.value)}
           className="input-brand"

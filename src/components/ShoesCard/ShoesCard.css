@@ -42,5 +42,11 @@
 @media screen and (max-width: 1000px) {
     .shoes-container{
         width:90%;
+        font-size: 40px;
     }
+
+    .p-c-container{
+        font-size: 40px;
+    }
+    
 }

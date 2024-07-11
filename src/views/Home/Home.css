@@ -14,3 +14,14 @@ h1{
     height: 80px;
     z-index: 100px ;
 }
+
+@media screen and (max-width:1000px) {
+    
+    .add-img{
+       height: 180px;
+    }
+
+    h1{
+        font-size: 100px;
+    }
+}
