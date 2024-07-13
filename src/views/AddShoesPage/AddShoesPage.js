@@ -73,6 +73,8 @@ function AddShoesPage() {
           className="input-brand"
         />
 
+      <img className="url-image" src={image} alt="url-image" />
+
         <input
           type="text"
           placeholder="Add Image Here"

@@ -11,7 +11,7 @@ function Home() {
 
   const [shoes, setShoes] = useState([])
 
-  const shoesArray = async ()=>{
+  const LoadShoes = async ()=>{
 
     toast.loading("Shoes Page Loading.......")
 
@@ -27,7 +27,7 @@ function Home() {
 
  useEffect(()=>{
 
-  shoesArray()
+  LoadShoes()
 
   }, [])
   
@@ -64,7 +64,9 @@ function Home() {
                 image={image}
                 gender={gender}
                 review={review}
-                description={description}/>
+                description={description}
+                LoadShoes={LoadShoes}
+                />
               )
             })
           }

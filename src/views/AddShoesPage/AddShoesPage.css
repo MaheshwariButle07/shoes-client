@@ -33,6 +33,12 @@
     height: 80px;
 }
 
+.url-image{
+    height: 200px;
+    width: 200px;
+    border: 2px black solid;
+}
+
 
 
 @media screen and (max-width:1000px) {
